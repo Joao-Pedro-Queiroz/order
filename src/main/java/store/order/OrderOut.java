@@ -5,8 +5,8 @@ import lombok.Builder;
 
 @Builder
 public record OrderOut(
-  String id,
-  String date,
-  List<OrderItemOut> items,
-  Double total
+    String id,
+    String date,
+    List<OrderItemOut> items,
+    Double total
 ) {}
